@@ -340,7 +340,7 @@ async def account_login(bot: Client, m: Message):
             
             url = links[i][1].replace("b'", ":").replace("'", "")
             name = links[i][0].replace("\t", "").replace(":", "").replace("/", "").replace("+", "").replace("#", "").replace("|", "").replace("@","").replace("*","").replace(".","").replace("b'", ":").replace("'", "").strip()
-            Show = f"**Downloading:-**\n\n**Name :-** ```{name}\nQuality - {raw_text4}```\n\n**Url :-** ```{url}```"
+            Show = f"**Downloading:-**\n\n**Name :-** ```{name}\nQuality - {raw_text4}```\n\n**Url :-** ```{url}\n**𝗕𝗼𝘁 𝗢𝘄𝗻𝗲𝗿 : 𝗕𝗹𝗮𝗰𝗸𝗢𝘂𝗧 (•̪●)=︻╦̵̵̿╤── **\n**𝗣𝗹𝘇 𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲 : https://www.youtube.com/channel/UC7udfRGdD_QoCg-OnSooGAA**```"
             prog = await m.reply_text(Show)
             cc = f"**{count}) Title :** {name}\n\n**Quality :** {raw_text4}\n**Batch :** {mm}\n**𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗲𝗱 𝗕𝘆 :** {raw_text0}"
             #\n**𝗕𝗼𝘁 𝗢𝘄𝗻𝗲𝗿 : 𝗕𝗹𝗮𝗰𝗸𝗢𝘂𝗧 (•̪●)=︻╦̵̵̿╤── **\n**𝗣𝗹𝘇 𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲 : https://www.youtube.com/channel/UC7udfRGdD_QoCg-OnSooGAA**
